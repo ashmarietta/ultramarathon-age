@@ -10,7 +10,7 @@ format:
     code-fold: true
     fig-width: 10
     fig-height: 6
-jupyter: python3
+jupyter: ultramarathon-age
 ---
 ## READ IN DATA
 ```{python}
@@ -278,14 +278,22 @@ for g, label in [("M","Men"), ("W","Women")]:
 ```
 
 This analysis of 111,146 finish records from 100km+ ultramarathons supports the claim that elite ultramarathon performance does not follow the early-twenties peak model of most sports. Instead, the data reveals a distinct age-performance curve with several key insights:
+
 1. Though young runners post faster median times when compared to all racers, they constitute a much smaller proportion of finishers than later age brackets, potentially skewing the data in their favor. Only gifted young runners are likely to complete in 100km+ races.
+
 2. Elite performers cluster around age 42. Ultramarathon elites are older than the general elite in almost every other major sport. This aligns with the literature on slow-twitch fiber development, fat oxidation efficiency, and pain tolerance, which typically improve well into the 40s.
+
 3. Older runners are a growing share of the field. The 40–59 age groups increased their representation from 2012 to 2021, among both men and women.
+
 4. Performance decline is gradual and late. Meaningful performance decline (measured by mean hours) begins after 44 for men and after 49 for women, much later than in sprint or power sports.
 
 ## REFERENCES
 "Does Age Matter in Ultramarathon?" *Runners Connect*, runnersconnect.net/does-age-matter-in-ultramarathon/. Accessed 13 June 2026.
+
 Knechtle, Beat, et al. "Age-Related Changes in 100-km Ultra-Marathon Running Performance." *Age*, vol. 35, no. 3, 2013, pp. 1063–1083, pmc.ncbi.nlm.nih.gov/articles/PMC3682063/.
+
 McDougall, Christopher. *Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen*. Knopf, 2009.
+
 "Ultra Trail Running Dataset." *TidyTuesday*, 26 Oct. 2021, github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-10-26.
+
 "Why Do Ultra-Endurance Athletes Get Better with Age?" *Born on the Trail*, bornonthetrail.substack.com/p/why-do-ultra-endurance-athletes-get-better-with-age. Accessed 13 June 2026.
